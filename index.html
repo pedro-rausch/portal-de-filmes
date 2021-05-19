@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="pt-br">
+
+  <head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Portal de Filmes</title>
+    <link rel="icon" href="images/logo-1.jpg">
+  </head>
+
+  <body>     
+
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"> </script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+     
+    <header>  
+    
+      <div class="topnav"> 
+        <img src="images/logo-1.jpg" alt="logo" width="100px"; height="70px";>       
+        <div class="lanc-cont">
+          <a href="#inicio">lançamentos</a>
+          <a class="traco">|</a>        
+          <a href="#dest-tit">em destaque</a>
+          <a class="traco">|</a>         
+          <a href="#avaliacoes">avaliações</a>
+          <a class="traco">|</a> 
+          <a href="#tit-em">entrevistas & makingof</a>
+          <a class="traco">|</a> 
+          <a href="#novidades">novidades</a>
+          <input type="text" placeholder="Pesquisar filme">
+        </div>
+       
+      </div>
+            
+    </header>  
+    <main>            
+      
+        <div class="container-fluid">
+          
+          <div class="row justify-content-center lancamentos">
+              <h1 id="inicio">Lançamentos</h1>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lAxgztbYDbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">   
+                  <div class="lanc-text">                 
+                      <h3>Harry Potter e o Prisioneiro de Azkaban</h3>
+                      <p>Sinopse: O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se aproxima. Porém um grande perigo ronda a escola: o assassino Sirius Black (Gary Oldman) fugiu da prisão de Azkaban, considerada até então como à prova de fugas. Para proteger a escola são enviados os Dementadores, estranhos seres que sugam a energia vital de quem se aproxima deles, que tanto podem defender a escola como piorar ainda mais a situação.</p>
+                      <p class="mesma-linha"><b>Diretor:</b> Alfonso Cuarón </p>
+                      <p class="mesma-linha"><b>Roteiro:</b> Steven Kloves </p>
+                      <p class="mesma-linha"><b>Estreia:</b> 04/06/2004</p>
+                      <p class="elenco"><b>Elenco:</b></p>
+                      <p>Daniel Radcliffe | Emma Watson | Rupert Grint | Gary Oldman</p>
+                      <p class="avaliacao"><b>Avaliação:</b></p>
+                      <span class="fa fa-star st-checked"></span>
+                      <span class="fa fa-star st-checked"></span>
+                      <span class="fa fa-star st-checked"></span>
+                      <span class="fa fa-star st-checked"></span>
+                      <span class="fa fa-star st"></span>                                           
+                  </div> 
+              </div> 
+
+            </div>
+            
+            <div class="row slide1">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 justify-content-center">
+                <div class="d-flex justify-content-center">
+                  <button class="ativo"></button>
+                  <button class="b-slide"></button>
+                  <button class="b-slide"></button>
+                  <button class="b-slide"></button>
+               </div>
+              </div>          
+            </div> 
+
+                
+          <div class="row r-pre-dest">
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-left">
+              <h1 id="dest-tit">Em Destaque</h1>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
+              <div class="dropdown pre-dest-drop">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
+                </a>              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Aventura</a>
+                  <a class="dropdown-item" href="#">Romance</a>
+                  <a class="dropdown-item" href="#">Comédia</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+                              
+
+          <div class="row  destaques">                           
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <img src="images/sw-rogueone.jpg" alt="Star Wars: Rogue One">
+              </div>
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <img src="images/hp-5.jpg" alt="Harry Potter e a Ordem da Phoenix">
+              </div>
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <img src="images/lotr-rotk.jpg" alt="O Senhor dos Aneis: O retorno do Rei">
+              </div>
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                  <img src="images/fightclub.jpg" alt="Clube da Luta">
+              </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center botao">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row justify-content-center botao2">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <button class="button button1">Mais filmes</button>
+              </div>          
+            </div>
+          </div>          
+        </div>
+
+        <div class="row avaliacoes justify-content-center">
+                <h1 id="avaliacoes">Últimas Avaliações</h1>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="aval-cont"> 
+                    <div class="aval-top">
+                      <div class="d-img"><img src="images/VoldemortHeadshot_DHP1 (1).png" alt="usuário anônimo"></div>
+                      <div class="aval-feat"><h3>Lorde Voldemort</h3></div>                                                                 
+                    </div>
+                    <div class='aval-texto'><p><b>Avaliação:</b> Interessante, mas acredito que faltou um pouco de assassinato de trouxas. No geral, diverte, principalmente quando aquele Potter não está em tela.</p></div>            
+                    <div class="aval-estrelas">
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star " style="font-size: 25px; width: 28px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px;"></span>
+                    </div>
+                    <div class="aval-data"><p><b>02/06/2004</b></p></div>                      
+                  </div>                                   
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="aval-cont"> 
+                    <div class="aval-top">
+                      <div class="d-img"><img src="images/darth-vader-background-wallpaper-preview.jpg" alt="usuário anônimo"></div>
+                      <div class="aval-feat"><h3>Darth Vader</h3></div>                                                                 
+                    </div>
+                    <div class='aval-texto'><p><b>Avaliação:</b> Ridículo e sem graça. Rompeu com a profecia do escolhido, me fez morrer à toa e ainda tentaram me substituir pela cópia barata do Kylo Ren.</p></div>            
+                    <div class="aval-estrelas">
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px;"></span>
+                    </div>
+                    <div class="aval-data"><p><b>20/02/2019</b></p></div>                      
+                  </div>                                   
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="aval-cont"> 
+                    <div class="aval-top">
+                      <div class="d-img"><img src="images/geralt-rivia.jpg" alt="usuário anônimo"></div>
+                      <div class="aval-feat"><h3>Geralt de Rivia</h3></div>                                                                 
+                    </div>
+                    <div class='aval-texto'><p><b>Avaliação:</b> O filme é interessante e entretém. Mas os truques foram bem fraquinhos, se eu fosse chamado entregaria bem mais do que isso... cof cof, Igni, cof cof... </p></div>            
+                    <div class="aval-estrelas">
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px; margin: 0px;"></span>
+                      <span class="fa fa-star st-checked" style="font-size: 25px; width: 28px;"></span>
+                      <span class="fa fa-star" style="font-size: 25px; width: 28px;"></span>
+                    </div>
+                    <div class="aval-data"><p><b>09/06/2016</b></p></div>                      
+                  </div>                                   
+                </div>                       
+        </div> 
+        
+  <div class="row justify-content-center botao2">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+      <button class="button button1">Mais avaliações</button>
+    </div>          
+  </div>
+
+  <div class="row justify-content-left pre-entrevistasemakingof">
+    <h1 id="tit-em">Entrevistas & Making Of</h1>
+  </div>
+
+  <div class="row justify-content-center entrevistasemakingof">
+      
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <div>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6yO6Zng1Rw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h5>Star Wars, Episode IX: The rise of Skywalker</h5>
+              <p><b>Diretor:</b> J. J. Abrams </p>
+              <p><b>Roteiro:</b> J. J. Abrams</p>  
+              <p><b>Estreia:</b> 19/12/2019</p>
+          </div> 
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/US9mpdGgMTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h5>Harry Potter e o Prisioneiro de Azkaban</h5>
+              <p><b>Diretor:</b> Alfonso Cuarón </p>
+              <p><b>Roteiro:</b> Steve Kloves</p>  
+              <p><b>Estreia:</b> 04/07/2004</p>
+          </div> 
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_SKpAed0DEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h5>Truque de Mestre 2</h5>
+              <p><b>Diretor:</b>  Jon M. Chu </p>
+              <p><b>Roteiro:</b> Ed Solomon</p>  
+              <p><b>Estreia:</b> 09/06/2016</p>
+          </div> 
+      </div>
+      <div class="row justify-content-center botao2">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <button class="button button1">Carregar mais filmes</button>
+        </div>          
+      </div>
+  </div>  
+
+ 
+  
+          <div class="row justify-content-center bottom">              
+              <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                
+                      <h1 id="novidades">Novidades</h1>
+                        <table>
+                            <tr>
+                              <td id="td-1"> <a href="https://www.wired.com/story/cantina-talk-101/" target="_blank"><img  width="500" height="500" src='images/Culture_cantinatalk_EP9-194008_R.jpg'/></a></td>
+                              
+                              <td>
+                                <div class="wrapper"> 
+                                  <div class="b-text">
+                                    <a href="https://www.wired.com/story/cantina-talk-101/" target="_blank"><b id="titulo">Cantina Talk: Afinal, quem realmente fez a ascensão do Skywalker?</b></a>
+                                    <br> Vários vazamentos online têm diferentes teorias sobre quem parece ser o responsável pela versão final do filme. </br>
+                                    <span class="label success">Star Wars</span>
+                                    <span class="label info">Polêmica</span>
+                                    <span class="label warning">Episódio IX</span>                                
+                                  </div>
+                                </div></td> 
+                            </tr>
+                          
+                          </table>
+                          <table>
+                            <tr>
+                              <td><a href="https://screenrant.com/harry-potter-cursed-child-movie-release-date-cast-story-will-it-happen/" target="_blank"><img  width="300" height="150" src='images/Harry-potter-and-the-cursed-child-movie.jpg'/></a></td>
+                              
+                              <td> 
+                                <a href="https://screenrant.com/harry-potter-cursed-child-movie-release-date-cast-story-will-it-happen/" target="_blank"><b id="titulo">Harry Potter e o filme infantil amaldiçoado: data de lançamento, elenco, história, vai acontecer</b></a> <br> Warner Bros provoca um novo projeto de Harry Potter para a HBO Max. Eles poderiam estar adaptando a sequência da história de Harry Potter e o Filho Amaldiçoado?</br>
+                                <span class="label success">Harry Potter</span>
+                                <span class="label info">Novo Filme</span>
+                                <span class="label warning">A criança amaldiçoada</span>    </td> 
+                            </tr>
+                          
+                          </table>
+                          <table>
+                            <tr>
+                              <td><a href="https://cinepop.com.br/truque-de-mestre-3-e-confirmado-e-ganha-novidades-259509/" target="_blank"><img  width="300" height="150" src='images/truquedemestre2-e1465741227609-696x372.jpg'/></a></td>
+                              
+                              <td>
+                                <a href="https://cinepop.com.br/truque-de-mestre-3-e-confirmado-e-ganha-novidades-259509/" target="_blank"><b id="titulo">‘Truque de Mestre 3’ é CONFIRMADO e ganha novidades</b></a>
+                                <br> Segundo o Deadline, a Lionsgate contratou Eric Warren Singer, indicado ao Oscar por seu trabalho em ‘Trapaça‘, para roteirizar o thriller de assalto ‘Truque de Mestre 3‘ (Now You See Me 3)</br>
+                                <span class="label success">Truque de Mestre 3</span>
+                                <span class="label info">Novo Filme</span>
+                                <span class="label warning">Magia</span>  </td> 
+                            </tr>
+                          
+                          </table>
+                          <table>
+                            <tr>
+                              <td><a href="https://www.adorocinema.com/noticias/filmes/noticia-158532/" target="_blank"><img  width="300" height="150" src='images/passageiro-acidental-netflix.jpg'/></a></td>
+                              
+                              <td> 
+                                <a href="https://www.adorocinema.com/noticias/filmes/noticia-158532/" target="_blank"><b id="titulo">Passageiro Acidental: Conheça o novo filme da Netflix feito por youtuber brasileiro e que contou com ajuda da NASA</b></a>
+                                <br> Passageiro Acidental, novo filme de Joe Penna, conhecido como MysteryGuitarMan no YouTube, tem Toni Collette e Anna Kendrick no elenco.</br>
+                                <span class="label success">Netflix</span>
+                                <span class="label info">Novo Filme</span>
+                                <span class="label warning">Lançamento</span>  </td> 
+                            </tr>
+                          
+                          </table>
+                                       
+              </div>            
+      
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <h1 class="sob-ed">Sobre</h1>
+                  <p> Esse site é fruto de um trabalho avaliativo que eu realizei para a Disciplina de Desenvolvimento de Interfaces Web, da Pontíficia Universidade Católica de Minas Gerais, localizada no núcleo da Praça da Liberdade - Belo Horizonte. </p>
+                  <p> Em suma, trata-se de um portal de filmes, no qual o usuário poderá consumir diversos tipos de conteúdo relacionados ao universo cinematográfico. </p>
+                   <h1 class="sob-ed">Editorial</h1>
+                
+                  <div>                    
+                  <img class="b-img" src="images/IMG_8594.jpg" alt="Pedro H. Rausch">
+                  <p>Redação: Pedro H. Rausch</p>
+                  </div>
+                  <div>                   
+                  <img class="b-img" src="images/IMG_8594.jpg" alt="Pedro H. Rausch">
+                  <p>Pesquisa: Pedro H. Rausch</p>
+                  </div>
+                  <div>                    
+                  <img class="b-img" src="images/IMG_8594.jpg" alt="Pedro H. Rausch">
+                  <p>Gerente Geral: Pedro H. Rausch</p> 
+                  <h3 id="rs1">redes sociais:</h3>
+                  <a href="https://pt-br.facebook.com/pipocandooficial/" target="_blank" class="fa fa-facebook"></a>
+                  <a href="https://twitter.com/pipocando?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="fa fa-twitter"></a>
+                  <a href="https://www.instagram.com/pipocando.oficial/?hl=pt-br" target="_blank" class="fa fa-instagram"></a>         
+                </div>               
+                  
+              </div>
+          </div>
+
+        </div> 
+  </main>  
+
+  <section class="">
+    
+    <footer class="text-center text-white" style="background-color: rgb(141, 146, 151)">
+      
+      <div class="container p-4 pb-0">
+        
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</span>
+            <button type="button" class="btn">
+              <img src="images/logo-1.jpg" alt="logo" width="90px" height="70px">
+            </button>
+          </p>
+        </section>        
+      </div>
+     
+    
+    </footer>
+    
+  </section>
+
+  </body>
+</html>
